@@ -28,12 +28,17 @@ p {
     padding: 0 100px 60px 100px;
 }
 section#acreage {
-    background-image: url(interesting-facts-about-Cocos-Keeling-Islands-1599x1080.jpg);
+    background-image: url(images/interesting-facts-about-Cocos-Keeling-Islands-1599x1080.jpg);
     background-position: center center;
     background-size: 150% auto;
-    max-height: 538px;
+    max-height: 600px;
 }
 section#floors {
-    background-image: url(burj-khalifa-top-view-1.png);
-    max-height: 538px;
+    background-image: url(images/burj-khalifa-top-view-1.png);
+    max-height: 600px;
+}
+section#units {
+    background-image: url(images/stl-homelessness.jpg);
+    max-height: 600px;
+    background-position: center center;
 }
