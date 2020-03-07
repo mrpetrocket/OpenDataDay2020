@@ -8,20 +8,84 @@
     <section class="illustrations">
         <section id="acreage">
             <div>
-                <h1>3868</h1>
-                <p>The total amount of vacant land in Saint Louis is 3868 acres or 15.65km<sup>2</sup>. 
-                    That is the size of the entire 
+                <h1>3,868</h1>
+                <p>The total amount of vacant land in Saint Louis is 3,868 acres or 15.65km<sup>2</sup>.
+                    That is the size of the entire
                     <a href="https://en.wikipedia.org/wiki/Cocos_(Keeling)_Islands" target="_new">Cocos Islands near Australia</a>.
-                </p>    
+                </p>
             </div>
         </section>
         <section id="floors">
             <div>
-                <h1>1514</h1>
-                <p>A total of 1514 building floors are vacant in Saint Louis. 
-                    If stacked one on top of the other, that would be more floors than 9 
-                    <a href="https://en.wikipedia.org/wiki/Burj_Khalifa" target="_new">Burj Khalifas</a>.
+                <!-- <h1>1,514</h1>
+                <p></a>.
+                </p> -->
+                <h2>Height of Vacant Housing in St. Louis</h2>
+                <p>A total of 1,514 building floors are vacant in Saint Louis.
+                    If stacked one on top of the other, that would be more floors than 9
+                    <a href="https://en.wikipedia.org/wiki/Burj_Khalifa" target="_new">Burj Khalifas</a></p>
+                <img src="images/height.jpg" alt="Height of vacant housing" width="400" height="800">
+                <h3>Sources</h3>
+                <p><a href="https://www.stlvacancy.com/methods--data.html" target="_new">STL Vacancy Data Portal</a>: Number of residential units in St.Louis City (last updated June 2018).</p>
+                <h3>Methods</h3>
+                <h3>Assumptions</h3>
+                <p>We assumed floor heights are the same for all buildings.
                 </p>
+            </div>
+        </section>
+        <section id="units">
+            <div>
+                <!-- <h1>26,132</h1>
+                <p>A total of 26,132 residential units are vacant in Saint Louis, which is more than four times the 6,179 estimated chronically <a href="https://www.usich.gov/homelessness-statistics/mo/">homeless individuals in the entire state of Missouri</a>.
+                </p> -->
+                <h2>Vacant Residential Units in comparison to Homeless Population</h2>
+                <img src="images/homeless.jpg" alt="Homeless" width="600" height="200">
+                <h3>Sources</h3>
+                <p><a href="https://www.stlvacancy.com/methods--data.html" target="_new">STL Vacancy Data Portal</a>: Number of residential units in St.Louis City (last updated June 2018).<br />
+                  <a href="https://www.usich.gov/homelessness-statistics/mo/" target="_new">United States Interagency Council on Homelessness</a>: Homeless population in the state of Missouri (last updated Jan 2019).
+                </p>
+                <h3>Methods</h3>
+                <p>The homless population is the sum of a) individuals experiencing homelessness, excluding unccompanied young adults reported by U.S. Department of Housing and Urban Development (HUD), and b) sheltered and unsheltered homeless students in the 2017-2018 school year.
+                </p>
+                <h3>Assumptions</h3>
+                <p>We discounted unccompanied minors in general homelessness statistics to include a superset of chronically and non-chronically homeless students.
+                </p>
+            </div>
+        </section>
+        <section id="average-vacancy">
+            <div>
+                <h2>Average Vacancy Duration</h2>
+                <ul>
+                   <li>Number of buildings vacant for less than a year 8949</li>
+                    <li>Number of buildings vacant for more than a year 23541</li>
+                    <li>Average number of years a building is vacant:  4.16</li>
+                    <li>Average of buildings vacant for more than a year:  5.75</li>
+                    <li>Number of buildings vacant for  0  years: 8949</li>
+                    <li>Number of buildings vacant for  1  years: 4234</li>
+                    <li>Number of buildings vacant for  2  years: 3224</li>
+                    <li>Number of buildings vacant for  3  years: 2530</li>
+                    <li>Number of buildings vacant for  4  years: 2084</li>
+                    <li>Number of buildings vacant for  5  years: 1968</li>
+                    <li>Number of buildings vacant for  6  years: 1642</li>
+                    <li>Number of buildings vacant for  7  years: 1405</li>
+                    <li>Number of buildings vacant for  8  years: 1261</li>
+                    <li>Number of buildings vacant for  9  years: 918</li>
+                    <li>Number of buildings vacant for  10  years: 788</li>
+                    <li>Number of buildings vacant for  11  years: 643</li>
+                    <li>Number of buildings vacant for  13  years: 420</li>
+                    <li>Number of buildings vacant for  15  years: 274</li>
+                    <li>Number of buildings vacant for  17  years: 205</li>
+                    <li>Number of buildings vacant for  18  years: 165</li>
+                    <li>Number of buildings vacant for  19  years: 129</li>
+                    <li>Number of buildings vacant for  20  years: 123</li>
+                    <li>Number of buildings vacant for  22  years: 91</li>
+                    <li>Number of buildings vacant for  23  years: 68</li>
+                    <li>Number of buildings vacant for  24  years: 61</li>
+                    <li>Number of buildings vacant for  25  years: 29</li>
+                    <li>Number of buildings vacant for  26  years: 31</li>
+                    <li>Number of buildings vacant for  27  years: 25</li>
+                    <li>Number of buildings vacant for  29  years: 8</li>
+                </ul>
             </div>
         </section>
     </section>
@@ -31,6 +95,8 @@
             <li>Using existing OpenSTL <code>vacant</code> dataset from ~2017</li>
             <li>Acreage is sum of <code>Acres</code> field.</li>
             <li>Floors is sum of <code>ComStories</code> field.</li>
+            <li>Number of residential units come from the <code>ResUnits</code> field of STLVacancy's <a href="https://www.stlvacancy.com/uploads/1/2/7/4/127463804/finalvacantall_20180707.zip">Vacant Properties Dataset (June 30, 2018)</a>.</li>
+            <li>Homelessness statistics come from <a href="https://www.usich.gov/homelessness-statistics/mo/">United States Integracy Council on Homelessness</a></li>
         </ul>
     </section>
 </body>
