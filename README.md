@@ -1,2 +1,2 @@
 # OpenDataDay2020
-template repo for OpenDataDay
+Hello! Please fork this repo!
